@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #081b29;
+    justify-content: space-between;
+    padding: 0 4% 0 2%;
+    backdrop-filter: transparent;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 8%;
+    font-size:  20px;
+    
+}
+li{
+    padding: 4%;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+li:hover{
+    border: 1px solid;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-color: #ffde00;
+    background-color: transparent;
+}
+a:hover{
+    color: #ffde00;
+}
+.logo a{
+    color: #ffffff;
+}
+.logo a:hover{
+    color: #ffde00;
+}
+
+/* about */
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: -35rem 3rem 0 30rem;
+}
+p{
+  font-size: 18px;
+}
+.myname{
+    margin-top: 2rem;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.about-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+/* Resume */
+
+.V-W-Resume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 4rem;
+}
+.Resume button{
+    background-color: #9E007B;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+.Resume button:hover{
+    background-color: #081b29;
+    color: #ffde00;
+    border: 1px #ffde00 solid;
+}
+
+/* contact-icons */
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    padding: 1% 0 1% 0;
+    background-color: #000000;
+    margin: 2.8rem -3rem 0 1rem;
+}
