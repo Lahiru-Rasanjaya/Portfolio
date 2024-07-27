@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lahiru Rasanjaya</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="screensize.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo"><a href="#design">RUart Design</a></div>
             <ul>
-                <li><a href="#home">HOME</a></li>
+                <li><a href="#home" class="active">HOME</a></li>
                 <li><a href="#skills">SKILLS</a></li>
-                <li><a href="#about">PROJECT</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#bottom">CONTACT</a></li>
             </ul>
         </nav>
     </header>
    
-    <img src="./assets/homeBcak-image3.jpg" alt="User-image">
+    <img src="./assets/homeBcak-image3.jpg" alt="User-image" id="home">
 
     <!-- about -->
 
      </div>
-     <section class="about" id="home">
+     <section class="about">
         <div class="myname">
             <h2>Hi, I'm Lahiru</h2>
             <h1>SOFTWARE DEVELOPER</h1>
@@ -73,16 +74,15 @@
         <div class="MWG">
             <div class="MWG-development">
                 <div>
-                    <h4 align="center">MOBILE APP DEVELOPMENT</h4>
+                    <h4 align="center"style="width: 220px;">MOBILE APP DEVELOPMENT</h4>
                 </div>
                 <div class="webDevelopment-skills">
-                    <div>Flutter</div>
-                    <div>Dart</div>
+                    <div>Flutter and Dart</div>
                 </div>
             </div>
             <div class="MWG-development">
                 <div>
-                    <h4 align="center">WEB DESIGN</h4>
+                    <h4 align="center" style="width: 100px;">WEB DESIGN</h4>
                 </div>
                 <div class="webDevelopment-skills">
                     <div>Figma</div>
@@ -93,11 +93,54 @@
                     <h4 align="center">GRAPHIC DESIGN</h4>
                 </div>
                 <div>
-                    <div>Adobe Photoshop</div>
+                    <div align="center" style="width: 150px;">Adobe Photoshop</div>
                 </div>
             </div>
-        </div>
-        
+        </div>        
      </section>
+
+     <!-- project  -->
+     <section class="project" id="project">
+        <h3>PROJECT</h3>
+        <div class="projectROW">
+            <div class="project-align">
+                <div class="image"><img src="./assets/levemanagement.jpg" alt="project-image"></div>
+                <div class="black-box">
+                    <a href="#"><img src="./assets/iconGithub.png" alt="github-icon"></a>
+                    <!-- <a href="#"><button>View</button></a> -->
+                    <a href="#"><img src="./assets/figma.png" alt="figma-icon"></a>
+                </div>
+            </div>
+            <div class="project-align">
+                <div class="image"><img src="./assets/microgreens.jpg" alt="project-image"></div>
+                <div class="black-box">
+                    <a href="#"><img src="./assets/iconGithub.png" alt="github-icon"></a>
+                    <!-- <a href="#"><button>View</button></a> -->
+                    <a href="#"><img src="./assets/figma.png" alt="figma-icon"></a>
+                </div>
+            </div>
+            <div class="project-align">
+                <div class="image"><img src="./assets/cardapp.jpg" alt="project-image"></div>
+                <div class="black-box">
+                    <a href="#"><img src="./assets/iconGithub.png" alt="github-icon"></a>
+                    <!-- <a href="#"><button>View</button></a> -->
+                    <a href="#"><img src="./assets/figma.png" alt="figma-icon"></a>
+                </div>
+            </div>
+        </div>        
+     </section>
+
+     <!-- bottom -->
+      <section class="bottom" id="bottom">
+        <div class="bottomIcons">
+            <a href="#"><img src="./assets/iconCall.png" alt="call-icon"></a>
+            <a href="#"><img src="./assets/iconGithub.png" alt="github-icon"></a>
+            <a href="#"><img src="./assets/iconWhatsapp.png" alt="whatsapp-icon"></a>
+            <a href="#"><img src="./assets/iconLinkedIn.png" alt="Linkedin-icon"></a>
+        </div>
+        <h3>lahirurasanjaya079@gmail.com</h3>
+        <h3>078 68 11 0 63 || 071 96 51 951</h3>
+        <h4>LAHIRU RASANJAYA</h4>
+      </section>
 </body>
 </html>
