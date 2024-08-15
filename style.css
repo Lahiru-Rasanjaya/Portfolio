@@ -131,3 +131,174 @@ ul a:hover{
         left: 0%;
     }
 }
+
+/* home page responsive  */
+
+@media only screen and (min-width: 1111px) and (max-width: 1206px) {
+    .homeText h1{
+        font-size: 45px;
+    }
+    .homeText .homepara{
+        width: 100%;
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 5.3px;
+    }
+}
+@media only screen and (min-width: 917px) and (max-width: 1110px) {
+    .homeText{
+        padding: 0 2rem 0 2rem;
+    }
+    .homeText h3{
+        margin-top: 2rem;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .homeText h1{
+        font-size: 40px;
+    }
+    .Home img{
+        width: 35%;
+        margin-top:2rem
+    }
+    .homeText button{
+        color: white;
+        background: none;
+        border: 2px solid;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1rem;   
+    }
+    .container .text{
+        position: relative;
+        color: #4070F4;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .homeText .homepara{
+        width: 100%;
+        font-size: 12px;
+        font-weight: 100;
+        letter-spacing: 3.9px;
+    }
+}
+@media only screen and (min-width: 772px) and (max-width: 916px) {
+    .homeText{
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .homeText h3{
+        margin-top: 2rem;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .homeText h1{
+        font-size: 40px;
+        margin-bottom: 0.5rem;
+    }
+    .Home img{
+        width: 30%;
+        margin-top:2rem
+    }
+    .homeText button{
+        color: white;
+        background: none;
+        border: 2px solid;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1rem;   
+    }
+    .container .text{
+        position: relative;
+        color: #4070F4;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .homeText .homepara{
+        width: 100%;
+        font-size: 8px;
+        font-weight: 100;
+        letter-spacing: 2.2px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 771px) {
+    .homeText{
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .homeText h3{
+        margin-top: 2rem;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .homeText h1{
+        font-size: 30px;
+        margin-bottom: 0.5rem;
+    }
+    .Home img{
+        width: 30%;
+        margin-top:2rem
+    }
+    .homeText button{
+        color: white;
+        background: none;
+        border: 2px solid;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 1rem;   
+    }
+    .container .text{
+        position: relative;
+        color: #4070F4;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .homeText .homepara{
+        width: 100%;
+        font-size: 8px;
+        font-weight: 100;
+        letter-spacing: 2.2px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .homeText{
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    .homeText h3{
+        margin-top: 2rem;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .homeText h1{
+        font-size: 16px;
+        margin-bottom: 0.6rem;
+    }
+    .Home img{
+        width: 30%;
+        margin-top:2rem
+    }
+    .homeText button{
+        color: white;
+        background: none;
+        border: 1px solid;
+        border-radius: 5px;
+        width: 100%;
+        padding: 0.2rem;
+        font-size: 10px; 
+        margin-top: -5rem;
+    }
+    .container .text{
+        position: relative;
+        color: #4070F4;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .homeText .homepara{
+        width: 100%;
+        font-size: 5px;
+        font-weight: 100;
+        letter-spacing: 1.46px;
+        margin-bottom: -1rem;
+    }
+}
