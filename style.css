@@ -55,6 +55,14 @@ nav a{
 ul a:hover{
     color: var(--hover-color);
 }
+.mainUl{
+    display: flex;
+    gap: 3rem;
+}
+#menu{
+    font-size: 26px;
+    display: none;
+}
 
 /* home */
 .Home{
@@ -178,12 +186,82 @@ ul a:hover{
     }
     .homeText .homepara{
         width: 100%;
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 100;
-        letter-spacing: 3.9px;
+        letter-spacing: 2.3px;
     }
 }
-@media only screen and (min-width: 772px) and (max-width: 916px) {
+@media only screen and (max-width: 916px) {
+    header{
+        width: 100%;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+        top: -1rem;
+        right: 0;
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        color: var(--text-colour);
+        justify-content: space-between;
+        padding: 2rem ;
+    }
+    .Home{
+        top: -1rem;
+    }
+    nav a:hover{
+        color: var(--hover-color);
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+    .mainUl{
+        display: none;
+    }
+    .mainUl.active {
+        background-color: var(--background-colour); 
+        padding: 0.5rem; 
+        text-decoration: none; 
+        color: var(--text-colour); 
+        width: 100%; 
+        display: block; 
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 0;
+        position: absolute;
+        top: 4rem;
+        font-size: 15px;
+    }
+    .mainUl a{
+        background-color: var(--background-colour);
+        padding: 0.5rem;
+    }
+    #menu:hover{
+        color: #FECB00;
+    }
+    nav a{
+        color: var(--text-colour);
+    }
+    .icons{
+        display: flex;
+        gap: 2rem;
+    }
+    .icons .bx{
+        font-size: 2rem;
+    }
+    ul a:hover{
+        color: var(--hover-color);
+    }
+    #menu{
+        position: absolute;
+        display: flex;
+        cursor: pointer;
+        margin-left: 5px;
+    }
     .homeText{
         padding: 0 0.5rem 0 0.5rem;
     }
@@ -193,7 +271,7 @@ ul a:hover{
         font-weight: 100;
     }
     .homeText h1{
-        font-size: 40px;
+        font-size: 38px;
         margin-bottom: 0.5rem;
     }
     .Home img{
@@ -217,12 +295,33 @@ ul a:hover{
     }
     .homeText .homepara{
         width: 100%;
-        font-size: 8px;
+        font-size: 14px;
         font-weight: 100;
-        letter-spacing: 2.2px;
+        letter-spacing: 2.32px;
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 771px) {
+    nav{
+        top: -1rem;
+    }
+    .Home{
+        top: -1rem;
+    }
+    .mainUl.active {
+        background-color: var(--background-colour); 
+        padding: 0.5rem; 
+        text-decoration: none; 
+        color: var(--text-colour); 
+        width: 100%; 
+        display: block; 
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 0;
+        position: absolute;
+        top: 4rem;
+        font-size: 14px;
+    }
     .homeText{
         padding: 0 0.5rem 0 0.5rem;
     }
@@ -256,12 +355,39 @@ ul a:hover{
     }
     .homeText .homepara{
         width: 100%;
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 100;
-        letter-spacing: 2.2px;
+        letter-spacing: 2.4px;
     }
 }
 @media only screen and (max-width: 600px){
+    nav{
+        top: -1rem;
+    }
+    .Home{
+        top: -1rem;
+    }
+    .icons .bx{
+        font-size: 1.5rem;
+    }
+    .mainUl.active {
+        background-color: var(--background-colour); 
+        padding: 0.5rem; 
+        text-decoration: none; 
+        color: var(--text-colour); 
+        width: 100%; 
+        display: block; 
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 0;
+        position: absolute;
+        top: 4rem;
+        font-size: 11px;
+    }
+    nav a{
+        font-size: 12px;
+    }
     .homeText{
         padding: 0 0.5rem 0 0.5rem;
     }
@@ -271,7 +397,7 @@ ul a:hover{
         font-weight: 100;
     }
     .homeText h1{
-        font-size: 16px;
+        font-size: 22px;
         margin-bottom: 0.6rem;
     }
     .Home img{
@@ -296,9 +422,86 @@ ul a:hover{
     }
     .homeText .homepara{
         width: 100%;
-        font-size: 5px;
+        font-size: 8px;
         font-weight: 100;
-        letter-spacing: 1.46px;
+        letter-spacing: 1.42px;
+        margin-bottom: -1rem;
+    }
+}
+@media only screen and (max-width: 445px){
+    nav{
+        top: -1.5rem;
+    }
+    .Home{
+        top: -1.5rem;
+    }
+    .mainUl.active {
+        background-color: var(--background-colour); 
+        padding: 0.5rem; 
+        text-decoration: none; 
+        color: var(--text-colour); 
+        width: 100%; 
+        display: block; 
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 0;
+        position: absolute;
+        top: 4rem;
+        font-size: 5px;
+    }
+    .homeText h3{
+        margin-top: 2rem;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .homeText h1{
+        font-size: 18px;
+        margin-bottom: 0.6rem;
+    }
+    .homeText .homepara{
+        width: 100%;        font-size: 6px;
+        font-weight: 100;
+        letter-spacing: 1.44px;
+        margin-bottom: -1rem;
+    }
+}
+@media only screen and (max-width: 364px){
+    nav{
+        top: -1.5rem;
+    }
+    .Home{
+        top: -1.5rem;
+    }
+    .mainUl.active {
+        background-color: var(--background-colour); 
+        padding: 0.5rem; 
+        text-decoration: none; 
+        color: var(--text-colour); 
+        width: 100%; 
+        display: block; 
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 0;
+        position: absolute;
+        top: 4rem;
+        font-size: 5px;
+    }
+    .homeText h3{
+        margin-top: 2.5rem;
+        font-size: 10px;
+        font-weight: 100;
+    }
+    .homeText h1{
+        font-size: 15px;
+        margin-bottom: 0.7rem;
+    }
+    .homeText .homepara{
+        width: 100%;        
+        font-size: 6px;
+        font-weight: 100;
+        letter-spacing: 0.63px;
         margin-bottom: -1rem;
     }
 }
