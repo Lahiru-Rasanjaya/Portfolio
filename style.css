@@ -300,7 +300,7 @@ ul a:hover{
         letter-spacing: 2.32px;
     }
     .ruartName{
-        font-size: 14px;
+        font-size: 12px;
         margin-left: -0.5rem;
     }
 }
@@ -364,7 +364,7 @@ ul a:hover{
         letter-spacing: 2.4px;
     }
     .ruartName{
-        font-size: 12px;
+        font-size: 10px;
         margin-left: -0.5rem;
     }
 }
@@ -436,7 +436,7 @@ ul a:hover{
         margin-bottom: -1rem;
     }
     .ruartName{
-        font-size: 11px;
+        font-size: 8px;
         margin-left: -1rem;
     }
 }
@@ -478,7 +478,7 @@ ul a:hover{
         margin-bottom: -1rem;
     }
     .ruartName{
-        font-size: 10px;
+        font-size: 6px;
         margin-left: -1rem;
     }
 }
@@ -521,7 +521,7 @@ ul a:hover{
         margin-bottom: -1rem;
     }
     .ruartName{
-        font-size: 8px;
-        margin-left: -1rem;
+        font-size: 5px;
+        margin-left: -1.4rem;
     }
 }
