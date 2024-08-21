@@ -299,6 +299,10 @@ ul a:hover{
         font-weight: 100;
         letter-spacing: 2.32px;
     }
+    .ruartName{
+        font-size: 14px;
+        margin-left: -0.5rem;
+    }
 }
 @media only screen and (min-width: 601px) and (max-width: 771px) {
     nav{
@@ -358,6 +362,10 @@ ul a:hover{
         font-size: 10px;
         font-weight: 100;
         letter-spacing: 2.4px;
+    }
+    .ruartName{
+        font-size: 12px;
+        margin-left: -0.5rem;
     }
 }
 @media only screen and (max-width: 600px){
@@ -427,6 +435,10 @@ ul a:hover{
         letter-spacing: 1.42px;
         margin-bottom: -1rem;
     }
+    .ruartName{
+        font-size: 11px;
+        margin-left: -1rem;
+    }
 }
 @media only screen and (max-width: 445px){
     nav{
@@ -464,6 +476,10 @@ ul a:hover{
         font-weight: 100;
         letter-spacing: 1.44px;
         margin-bottom: -1rem;
+    }
+    .ruartName{
+        font-size: 10px;
+        margin-left: -1rem;
     }
 }
 @media only screen and (max-width: 364px){
@@ -503,5 +519,9 @@ ul a:hover{
         font-weight: 100;
         letter-spacing: 0.63px;
         margin-bottom: -1rem;
+    }
+    .ruartName{
+        font-size: 8px;
+        margin-left: -1rem;
     }
 }
