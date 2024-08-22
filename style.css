@@ -575,13 +575,13 @@ ul a:hover{
     border-radius: 25px;
   }
   
-  @media only screen and (max-width: 800px){
+  @media only screen and (max-width: 857px){
     #skills {
         background-color: var(--background-colour);
         padding: 10px 0;
         text-align: center;
         border: 1px solid white;
-        margin: -1rem 1rem 1rem 1rem;
+        margin: -1rem 1.5rem 1.5rem 1.5rem;
       }
 
       #skills h2 {
