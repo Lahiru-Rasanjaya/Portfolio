@@ -575,3 +575,50 @@ ul a:hover{
     border-radius: 25px;
   }
   
+  @media only screen and (max-width: 600px){
+    #skills {
+        background-color: var(--background-colour);
+        padding: 10px 0;
+        text-align: center;
+        border: 1px solid white;
+        margin: -1rem 1rem 1rem 1rem;
+      }
+
+      #skills h2 {
+        font-size: 15px;
+        color: #bdbdbd;
+        margin-bottom: 15px;
+      }
+      
+      .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 0.5rem;
+      }
+      
+      .skill {
+        width: 100px;
+        text-align: left;
+      }
+      
+      .skill h3 {
+        font-size: 6px;
+        font-weight: 100;
+        margin-bottom: 5px;
+        color: #ffffff;
+      }
+      
+      .skill-bar {
+        background-color: #ddd;
+        border-radius: 25px;
+        overflow: hidden;
+      }
+      
+      .skill-level {
+        height: 5px;
+        background-color: var(--hover-color);
+        border-radius: 25px;
+      }
+  }
