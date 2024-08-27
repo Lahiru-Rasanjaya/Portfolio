@@ -622,3 +622,64 @@ ul a:hover{
         border-radius: 25px;
       }
   }
+
+  /* project */
+
+  #Project{
+    padding: 20px 0px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 2rem;
+    
+  }
+  #Project h2{
+    font-size: 2 em;
+    color: #bdbdbd;
+    margin-bottom: 40px;
+  }
+  .myproject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  .project{
+    width: 30%;
+    text-align: left;
+  }
+  .project h3{
+    font-weight: 500;
+    color: var(--text-colour);
+  }
+  .project h4{
+    font-weight: 100;
+    color: #bdbdbd;
+    font-size: 0.8em;
+    text-align: justify;
+  }
+  .project .bxl-github{
+    color: var(--text-colour);
+    font-size: 2rem;
+    cursor: pointer;
+    padding-top: 6px;
+  }
+  .project .bxl-github:hover{
+    color: var(--hover-color);
+  }
+
+  /* contact  */
+  #Contact{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+  }
+  #Contact .bx{
+    color: var(--text-colour);
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  #Contact .bx:hover{
+    color: var(--hover-color);
+  }
