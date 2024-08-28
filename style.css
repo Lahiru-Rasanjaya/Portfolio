@@ -667,7 +667,7 @@ ul a:hover{
     color: var(--hover-color);
   }
 
-  @media only screen and (max-width: 866px){
+  @media only screen and (max-width: 857px){
     #Project{
         padding: 10px 5px;
         text-align: center;
@@ -725,7 +725,7 @@ ul a:hover{
   #Contact .bx:hover{
     color: var(--hover-color);
   }
-  @media only screen and (max-width: 866px){
+  @media only screen and (max-width: 857px){
     #Contact{
         margin: 0.5rem 0.5rem 1rem 0.5rem;
         padding: 1rem;
