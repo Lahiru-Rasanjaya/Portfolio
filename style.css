@@ -667,6 +667,48 @@ ul a:hover{
     color: var(--hover-color);
   }
 
+  @media only screen and (max-width: 866px){
+    #Project{
+        padding: 10px 6px;
+        text-align: center;
+        border: 1px solid white;
+        margin: 1rem;
+        
+      }
+      #Project h2{
+        font-size: 8px;
+        color: #bdbdbd;
+        margin-bottom: 10px;
+      }
+      .myproject{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      .project{
+        width: 30%;
+        text-align: left;
+      }
+      .project h3{
+        font-size: 8px;
+        font-weight: 500;
+        color: var(--text-colour);
+      }
+      .project h4{
+        font-weight: 100;
+        color: #bdbdbd;
+        font-size: 6px;
+        text-align: justify;
+      }
+      .project .bxl-github{
+        color: var(--text-colour);
+        font-size: 1rem;
+        cursor: pointer;
+        padding-top: 6px;
+      }
+  }
+
   /* contact  */
   #Contact{
     margin: 2rem;
@@ -682,4 +724,21 @@ ul a:hover{
   }
   #Contact .bx:hover{
     color: var(--hover-color);
+  }
+  @media only screen and (max-width: 866px){
+    #Contact{
+        margin: 1rem;
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+      }
+      #Contact .bx{
+        color: var(--text-colour);
+        font-size: 1rem;
+        cursor: pointer;
+      }
+      #Contact .bx:hover{
+        color: var(--hover-color);
+      }
   }
