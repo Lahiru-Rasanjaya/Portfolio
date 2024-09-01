@@ -224,7 +224,6 @@ ul a:hover{
         display: none;
     }
     .mainUl.active {
-        background-color: var(--background-colour); 
         padding: 0.5rem; 
         text-decoration: none; 
         color: var(--text-colour); 
@@ -237,10 +236,10 @@ ul a:hover{
         position: absolute;
         top: 4rem;
         font-size: 15px;
+        
     }
-    .mainUl a{
+    .mainUl li{
         background-color: var(--background-colour);
-        padding: 0.5rem;
     }
     #menu:hover{
         color: #FECB00;
@@ -727,7 +726,7 @@ ul a:hover{
   }
   @media only screen and (max-width: 857px){
     #Contact{
-        margin: 0.5rem 0.5rem 1rem 0.5rem;
+        margin:  -0.5rem 1rem 0.5rem;
         padding: 1rem;
         display: flex;
         justify-content: center;
